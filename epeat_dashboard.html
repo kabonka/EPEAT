@@ -6,6 +6,17 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
+<script>
+// 強制繞過緩存：每次訪問都請求最新版本
+(function(){
+  var ts = Date.now();
+  var href = location.href.split('#')[0];
+  if(href.indexOf('_nocache_') === -1){
+    var sep = href.indexOf('?') === -1 ? '?' : '&';
+    location.replace(href + sep + '_nocache_=' + ts);
+  }
+})();
+</script>
 <title>EPEAT Dashboard</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
