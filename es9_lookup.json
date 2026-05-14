@@ -1,0 +1,531 @@
+{
+  "15H5": [
+    {
+      "Project": "MS-15H5",
+      "CPU / Processor": "Intel® Core™ Ultra 9 185H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 16GB",
+      "Screen Panel": "AUO B156HAK02.3 H/W:0A",
+      "Touch": "Y"
+    },
+    {
+      "Project": "MS-15H5",
+      "CPU / Processor": "Intel® Core™ Ultra 9 185H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 32GB",
+      "Screen Panel": "AUO B156HAK02.3 H/W:0A",
+      "Touch": "Y"
+    },
+    {
+      "Project": "MS-15H5",
+      "CPU / Processor": "Intel® Core™ Ultra 9 185H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "AUO B156HAK02.3 H/W:0A",
+      "Touch": "Y"
+    },
+    {
+      "Project": "MS-15H5",
+      "CPU / Processor": "Intel® Core™ Ultra 7 255H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 32GB",
+      "Screen Panel": "Innolux N156HCA-EAB H/W:C4",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-15H5",
+      "CPU / Processor": "Intel® Core™ Ultra 7 255H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "Innolux N156HCA-EAB H/W:C4",
+      "Touch": "N"
+    }
+  ],
+  "2612": [
+    {
+      "Project": "MS-2612",
+      "CPU / Processor": "Intel® Core™ Ultra 5 135H",
+      "Memory / RAM": "Samsung DDR5-5600 64bits 32GB",
+      "Screen Panel": "Innolux N160JCA-EE1 H/W:C1",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-2612",
+      "CPU / Processor": "Intel® Core™ Ultra 5 135H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "Innolux N160JCA-EE1 H/W:C1",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-2612",
+      "CPU / Processor": "Intel® Core™ Ultra 5 135H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "BOE NV160WUM-T03 HW:V8",
+      "Touch": "Y"
+    },
+    {
+      "Project": "MS-2612",
+      "CPU / Processor": "Intel® Core™ Ultra 9 185H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "Innolux N160JCA-EEM H/W:C2",
+      "Touch": "N"
+    }
+  ],
+  "14Q2": [
+    {
+      "Project": "MS-14Q2",
+      "CPU / Processor": "Intel® Core™ Ultra 7 155H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "Innolux N140JCA-ELK Rev:C1",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-14Q2",
+      "CPU / Processor": "Intel® Core™ Ultra 5 135H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "AUO B140UAN04.H H/W:1A",
+      "Touch": "N"
+    }
+  ],
+  "15Q2": [
+    {
+      "Project": "MS-15Q2",
+      "CPU / Processor": "Intel® Core™ Ultra 9 185H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "Innolux N156HCA-EAB H/W:C4",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-15Q2",
+      "CPU / Processor": "Intel® Core™ Ultra 9 185H",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "AUO B156HAK02.3",
+      "Touch": "Y"
+    }
+  ],
+  "14QK": [
+    {
+      "Project": "MS-14QK",
+      "CPU / Processor": "AMD Ryzen™ AI 5 340",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "AUO B140UAK02.5 H/W:1A",
+      "Touch": "Y"
+    }
+  ],
+  "15QK": [
+    {
+      "Project": "MS-15QK",
+      "CPU / Processor": "AMD Ryzen™ AI 7 350",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "AUO B156HAK02.3",
+      "Touch": "Y"
+    }
+  ],
+  "261K": [
+    {
+      "Project": "MS-261K",
+      "CPU / Processor": "AMD Ryzen™ AI 5 340",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "Samsung ATNA60FV03 H/W:-0",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-261K",
+      "CPU / Processor": "AMD Ryzen™ AI 7 350",
+      "Memory / RAM": "SK-Hynix DDR5-5600 64bits 64GB",
+      "Screen Panel": "BOE NV160WUM-T03 HW:V8",
+      "Touch": "Y"
+    }
+  ],
+  "14T2": [
+    {
+      "Project": "MS-14T2",
+      "CPU / Processor": "Intel® Core™ X7 358H",
+      "Memory / RAM": "SK-Hynix LPDDR5X-8533 64bits 64GB",
+      "Screen Panel": "Samsung ATNA40CU04 H/W:002",
+      "Touch": "Y"
+    }
+  ],
+  "2622": [
+    {
+      "Project": "MS-2622",
+      "CPU / Processor": "Intel® Core™ X7 358H",
+      "Memory / RAM": "SK-Hynix LPDDR5X-8533 64bits 32GB",
+      "Screen Panel": "Samsung ATNA60CL11(SDC41B6)",
+      "Touch": "Y"
+    }
+  ],
+  "13Q4": [
+    {
+      "Project": "MS-13Q4",
+      "CPU / Processor": "Intel® Core™ X7 Ultra 358H",
+      "Memory / RAM": "Samsung LPDDR5X-8533 64bits 32GB",
+      "Screen Panel": "Samsung ATNA33AA07",
+      "Touch": "N"
+    }
+  ],
+  "15SK": [
+    {
+      "Project": "MS-15SK",
+      "CPU / Processor": "AMD R7 250(HPT)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15SK",
+      "CPU / Processor": "AMD R7 250(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15SK",
+      "CPU / Processor": "AMD R5(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15SK",
+      "CPU / Processor": "AMD R3(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15SK",
+      "CPU / Processor": "AMD R7 350(KRK)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15SK",
+      "CPU / Processor": "AMD R5(KRK)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    }
+  ],
+  "14SK": [
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R3 210(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R7 250",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R5(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R7 250(HPT)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R7 250(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R7 350(KRK)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R5 (KRK)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14SK",
+      "CPU / Processor": "AMD R5 (KRK)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080",
+      "Touch": "-"
+    }
+  ],
+  "13SK": [
+    {
+      "Project": "MS-13SK",
+      "CPU / Processor": "AMD R3 210(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080(non Touch)",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-13SK",
+      "CPU / Processor": "AMD R3 210(HPT)",
+      "Memory / RAM": "16GB",
+      "Screen Panel": "1920x1080(non Touch)",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-13SK",
+      "CPU / Processor": "AMD R3 210(HPT)",
+      "Memory / RAM": "8GB",
+      "Screen Panel": "1920x1080(non Touch)",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-13SK",
+      "CPU / Processor": "AMD R7 250(HPT)",
+      "Memory / RAM": "32GB",
+      "Screen Panel": "1920x1080 (non Touch)",
+      "Touch": "N"
+    },
+    {
+      "Project": "MS-13SK",
+      "CPU / Processor": "AMD R7 250(HPT)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080 (Touch)",
+      "Touch": "Y"
+    },
+    {
+      "Project": "MS-13SK",
+      "CPU / Processor": "AMD R7 350(KRK)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080 (Touch)",
+      "Touch": "Y"
+    },
+    {
+      "Project": "MS-13SK",
+      "CPU / Processor": "AMD R5 (KRK)",
+      "Memory / RAM": "64GB",
+      "Screen Panel": "1920x1080 (non Touch)",
+      "Touch": "N"
+    }
+  ],
+  "15S1": [
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "16GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "8GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core5 120U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core5 120U",
+      "Memory / RAM": "16GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core5 120U",
+      "Memory / RAM": "8GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "16GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "8GB DDR4",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "32GB DDR5",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "8GB DDR5",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core5 120U",
+      "Memory / RAM": "16GB DDR5",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "32GB DDR5",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-15S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "8GB DDR5",
+      "Screen Panel": "15.6\" (1920*1080)",
+      "Touch": "-"
+    }
+  ],
+  "14S1": [
+    {
+      "Project": "MS-14S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "14\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "8GB DDR4",
+      "Screen Panel": "14\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "16GB DDR4",
+      "Screen Panel": "14\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14S1",
+      "CPU / Processor": "Core5 120U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "14\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "14\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "32GB DDR5",
+      "Screen Panel": "14\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-14S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "16GB DDR5",
+      "Screen Panel": "14\" (1920*1080)",
+      "Touch": "-"
+    }
+  ],
+  "13S1": [
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "16GB DDR4",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "8GB DDR4",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core5 120U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core3 100U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "32GB DDR4",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "32GB DDR5",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core7 150U",
+      "Memory / RAM": "16GB DDR5",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    },
+    {
+      "Project": "MS-13S1",
+      "CPU / Processor": "Core5 1334U",
+      "Memory / RAM": "32GB DDR5",
+      "Screen Panel": "13.3\" (1920*1080)",
+      "Touch": "-"
+    }
+  ]
+}
