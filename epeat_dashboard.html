@@ -6,6 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 // 強制繞過緩存：每次訪問都請求最新版本
 (function(){
@@ -677,17 +678,14 @@ function resetFilters(){
 
 // ── 匯出 Excel ──
 function exportExcel(){
-  const rows=filteredData.map(r=>ALL_COLUMNS.map(col=>r[col.key]||""));
   const headers=ALL_COLUMNS.map(col=>col.label);
-  let csv="\uFEFF"+headers.join("\t")+"\n";
-  rows.forEach(row=>{
-    csv+=row.map(cell=>{let s=String(cell).replace(/"/g,'""');if(s.includes("\t")||s.includes("\n")||s.includes('"'))s='"'+s+'"';return s;}).join("\t")+"\n";
-  });
-  const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');a.href=url;
-  a.download='EPEAT_Export_'+new Date().toISOString().slice(0,10)+'.csv';
-  document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
+  const rows=filteredData.map(r=>ALL_COLUMNS.map(col=>r[col.key]||""));
+  const wsData=[headers].concat(rows);
+  const ws=XLSX.utils.aoa_to_sheet(wsData);
+  const wb=XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb,ws,"EPEAT");
+  const dateStr=new Date().toISOString().slice(0,10);
+  XLSX.writeFile(wb,'EPEAT_Export_'+dateStr+'.xlsx');
 }
 
 // ── 初始化 ──
