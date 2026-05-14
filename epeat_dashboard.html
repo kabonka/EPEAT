@@ -6,18 +6,6 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script>
-// 強制繞過緩存：每次訪問都請求最新版本
-(function(){
-  var ts = Date.now();
-  var href = location.href.split('#')[0];
-  if(href.indexOf('_nocache_') === -1){
-    var sep = href.indexOf('?') === -1 ? '?' : '&';
-    location.replace(href + sep + '_nocache_=' + ts);
-  }
-})();
-</script>
 <title>EPEAT Dashboard</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -678,14 +666,17 @@ function resetFilters(){
 
 // ── 匯出 Excel ──
 function exportExcel(){
-  const headers=ALL_COLUMNS.map(col=>col.label);
   const rows=filteredData.map(r=>ALL_COLUMNS.map(col=>r[col.key]||""));
-  const wsData=[headers].concat(rows);
-  const ws=XLSX.utils.aoa_to_sheet(wsData);
-  const wb=XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(wb,ws,"EPEAT");
-  const dateStr=new Date().toISOString().slice(0,10);
-  XLSX.writeFile(wb,'EPEAT_Export_'+dateStr+'.xlsx');
+  const headers=ALL_COLUMNS.map(col=>col.label);
+  let csv="\uFEFF"+headers.join("\t")+"\n";
+  rows.forEach(row=>{
+    csv+=row.map(cell=>{let s=String(cell).replace(/"/g,'""');if(s.includes("\t")||s.includes("\n")||s.includes('"'))s='"'+s+'"';return s;}).join("\t")+"\n";
+  });
+  const blob=new Blob([csv],{type:'application/vnd.ms-excel;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');a.href=url;
+  a.download='EPEAT_Export_'+new Date().toISOString().slice(0,10)+'.xls';
+  document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
 }
 
 // ── 初始化 ──
